@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <section class="app">
+            <h1>SQUAT!</h1>
+            <p class="description">Track your sets</p>
+            
+            <h2 id="count-el">0</h2>
+            
+            <div class="btn-container">
+                <button class="increment-btn" onclick="add1()"><span class="white">+</span>1</button>
+                <button class="increment-btn" onclick="add5()"><span class="white">+</span>5</button>
+                <button id="save-btn" onclick="save()">SAVE</button>
+                <button class="increment-btn" onclick="add10()"><span class="white">+</span>10</button>
+                <button class="increment-btn" onclick="add20()"><span class="white">+</span>20</button>
+            </div>
+            
+            <div class="circuit-container">
+                <div class="circuit-wrapper">
+                    <p id="save-el"></p>
+                </div>
+                <button id="clear-btn" onclick="reset()">CLEAR</button>
+            </div>
+        </section class="app">
+        
+        
+        <script src="index.js">
+        </script>
+    </body>
+</html>
