@@ -20,6 +20,17 @@ button {
     font-size: 1.5rem;
 }
 
+button:hover {
+    scale: 1.02;
+    transition: 250ms ease;
+    filter: brightness(85%);
+}
+
+button:active {
+    transition: 50ms;
+    scale: 1.1;
+}
+
 .white {
     color: #f8f9fa;
     text-shadow: 0 0 1px #001219;
