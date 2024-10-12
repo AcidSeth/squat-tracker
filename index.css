@@ -24,7 +24,7 @@ button {
 button:hover {
     scale: 1.02;
     transition: 250ms ease;
-    filter: brightness(85%);
+    filter: brightness(90%);
 }
 
 button:active {
